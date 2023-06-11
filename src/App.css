@@ -1,0 +1,37 @@
+h3 {
+  margin: 0;
+  padding-bottom: .25em;
+}
+
+button {
+    margin-top: .5em;
+    padding: .5em 1em;
+    background-color: dodgerblue;
+    font: 1em sans-serif;
+    font-weight: bold;
+    border-radius: .5em;
+}
+button:hover {
+    background-color: mediumslateblue;
+}
+
+input {
+    padding: .25em .5em;
+    margin-left: .5em;
+    border: 1px solid transparent;
+    border-radius: .4em;
+}
+
+.userContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+  border: 1px solid black;
+  border-radius: 1em;
+  padding: 1em 1.5em;
+  background-color: #222;
+}
+
+.updateForm {
+  padding-left: 2em;
+}
